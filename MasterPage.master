@@ -1,0 +1,42 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" type="text/css" href="yang-style.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+
+        <div id="header">
+            <asp:Image CssClass="hdr_img" ID="Image1" runat="server" ImageUrl="~/images/premier-league-logo.jpg" />
+        </div>
+
+        <div id="menu">menu</div>
+        <div id="date">
+                     <asp:Label ID="lbl_Date" runat="server" Text=""></asp:Label>
+        </div>
+
+          <div id="content">
+
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+
+          </div>
+
+        <br /> <br /> <br />
+        <div id="footer">
+                  Copyright &copy; <asp:Label ID="lbl_Copy" runat="server" Text=""></asp:Label> Yang Liu - 6K183: Software Design &amp; Development
+        </div>
+    </div>
+    </form>
+</body>
+</html>

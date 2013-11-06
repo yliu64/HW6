@@ -1,0 +1,54 @@
+﻿body {
+    background-color: black;
+}
+
+
+
+#container {
+    margin-top: 10px;
+    background-color:#B70100;
+    width:900px;
+    height: 1100px;
+    margin: 0 auto;
+    border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+#menu {
+    padding:20px;
+    width:600px;
+    float: left;
+}
+
+#date {
+    padding:20px;
+    width:220px;
+    float:right;
+}
+
+#content {
+    padding:20px;
+    clear: both;
+}
+
+#footer {
+    padding:20px;
+    text-align:center;
+}
+
+
+.cssgridview {
+    width: 100%;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.hdr_img {
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
