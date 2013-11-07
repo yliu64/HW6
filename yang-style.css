@@ -19,7 +19,7 @@ li
     margin-top: 10px;
     background-color:#B70100;
     width:900px;
-    height: 1100px;
+    height: 1400px;
     margin: 0 auto;
     border-radius: 20px;
 	-webkit-border-radius: 20px;
@@ -33,9 +33,11 @@ li
 }
 
 #date {
-    padding:20px;
-    width:220px;
+    padding-right:20px;
+    width:240px;
     float:right;
+     font-variant:small-caps;
+    font-size:13pt;
 }
 
 #content {
@@ -48,14 +50,100 @@ li
     text-align:center;
 }
 
+#hdr_text {
+    float:right;
+    padding-right: 150px;
+    padding-top:100px;
+    font-family:'Old English Text MT';
+    font-size:30pt;
+}
+
+#contact {
+    text-align: center;
+    font-variant:small-caps;
+}
+
+#about {
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
 
 .cssgridview {
     width: 100%;
     margin: 5px 0 10px 0;
+    background-color: white;
     border: solid 1px #525252;
     border-collapse: collapse;
     text-align: center;
+    font-variant:small-caps;
 }
+
+.cssgridview td { padding:5px; border:none; text-decoration:none;}
+
+.cssgridview td a, a:visited {text-decoration:none; }
+
+.cssgridview th { padding:10px; color:white; background-color:black; border:none; font-size:12pt; }  
+
+.cssgridview th a { color:white; text-decoration:none; }  
+
+.cssgridview th a:hover { color:white; text-decoration:underline; }
+
+.cssgridview .alt { background-color:grey;}
+
+.cssgridview .pgr { background-color: black;}  
+
+.cssgridview .pgr table { margin: 5px 0;}  
+
+.cssgridview .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }     
+
+.cssgridview .pgr a { color: #666; text-decoration: none; }  
+
+.cssgridview .pgr a:hover { color: white; text-decoration: underline; }
+
+
+.cssdetailsview { 
+    margin-left:125px; 
+    font-variant:small-caps;
+    background-color:white; 
+    text-align:center;
+    border: 1px solid black;
+}
+
+
+.cssdetailsview td { 
+    padding:10px; 
+    color:black; 
+    text-align:left;}
+
+
+.cssdetailsview .header td { 
+    text-align:center; 
+    padding:4px 2px; 
+    color:white;
+    background-color:black; 
+    }
+
+
+.cssdetailsview .fieldheader { 
+    color:red; 
+    width:400px; 
+    text-align:left;}
+
+.cssdetailsview .command { 
+    background-color:black; 
+    color:white;
+    line-height: 20px;}
+
+.cssdetailsview .command td {
+     text-align:center;
+}
+
+.cssdetailsview .command a {color:Silver; text-decoration:none; padding:10px; }
+
+.cssdetailsview .command a:hover {color:Silver; text-decoration:underline; }
+
 
 .hdr_img {
     height: 300px;

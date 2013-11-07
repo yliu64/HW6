@@ -25,7 +25,7 @@
                                     DataSourceID="SqlDataSource1" 
                                     AllowPaging="True" 
                                     AllowSorting="True"
-                                      CssClass="cssgridview" 
+                                    CssClass="cssgridview" 
                                     >
 
         <Columns>

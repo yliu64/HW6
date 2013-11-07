@@ -49,10 +49,12 @@
                                     DataKeyNames="ID" 
                                     DataSourceID="SqlDataSource1" 
                                     AllowPaging="True"
-                                    PageSize="6"
-                                    Gridlines="None"
-                                    CssClass="cssgridview" 
+                                    PageSize="8"                                   
                                     AllowSorting="True"
+                                    Gridlines="None"
+                                    CssClass="cssgridview"
+                                    AlternatingRowStyle-CssClass="alt"
+                                    PagerStyle-CssClass="pgr"
         >
         <Columns>
             <asp:BoundField DataField="squad" HeaderText="Squad #" SortExpression="squad" />

@@ -21,7 +21,22 @@
             <asp:QueryStringParameter Name="ID" QueryStringField="ID" Type="Int32" />
         </SelectParameters>
     </asp:SqlDataSource>
-    <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="ID" DataSourceID="SqlDataSource1" Height="50px" Width="125px" DefaultMode="Insert">
+    <asp:DetailsView ID="DetailsView1" runat="server" 
+                    AutoGenerateRows="False" 
+                    DataKeyNames="ID" 
+                    DataSourceID="SqlDataSource1" 
+                    Height="50px" 
+                    Width="125px" 
+                    DefaultMode="Insert"
+                    HeaderText="Player Details"
+	              CssClass="cssdetailsview"
+                  HeaderStyle-CssClass="header"
+                  FieldHeaderStyle-CssClass="fieldheader"
+                  ItemStyle-CssClass="item"
+                  AlternatingRowStyle-CssClass="altrow"
+                  CommandRowStyle-CssClass="command"
+                  PagerStyle-CssClass="pager"
+        >
         <Fields>
             <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
             <asp:BoundField DataField="squad" HeaderText="Squad #" SortExpression="squad" />
