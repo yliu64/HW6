@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="players.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -51,10 +51,10 @@
                                     AllowPaging="True"
                                     PageSize="6"
                                     Gridlines="None"
-                                    CssClass="cssgridview" AllowSorting="True"
+                                    CssClass="cssgridview" 
+                                    AllowSorting="True"
         >
         <Columns>
-            <asp:CommandField ShowEditButton="True" />
             <asp:BoundField DataField="squad" HeaderText="Squad #" SortExpression="squad" />
             <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
             <asp:ImageField DataImageUrlField="pictureURL">

@@ -35,7 +35,7 @@
             <asp:Parameter Name="marketvalue" Type="String" />
             <asp:Parameter Name="pictureURL" Type="String" />
             <asp:Parameter Name="squad" Type="Int32" />
-            <asp:Parameter Name="pictureURL2" Type="String" />     
+            <asp:Parameter Name="pictureURL2" Type="String" />
             <asp:Parameter Name="ID" Type="Int32" />
         </UpdateParameters>
     </asp:SqlDataSource>
@@ -50,6 +50,8 @@
             <asp:BoundField DataField="goals" HeaderText="Goals" SortExpression="goals" />
             <asp:BoundField DataField="assists" HeaderText="Assists" SortExpression="assists" />
             <asp:BoundField DataField="marketvalue" HeaderText="Market Value" SortExpression="marketvalue" />
+            <asp:BoundField DataField="pictureURL" HeaderText="Icon URL" SortExpression="pictureURL" />
+            <asp:BoundField DataField="pictureURL2" HeaderText="Profile URL" SortExpression="pictureURL2" />
             <asp:ImageField DataImageUrlField="pictureURL2">
                 <ControlStyle Width="460px" />
             </asp:ImageField>

@@ -19,7 +19,20 @@
             <asp:Image CssClass="hdr_img" ID="Image1" runat="server" ImageUrl="~/images/premier-league-logo.jpg" />
         </div>
 
-        <div id="menu">menu</div>
+        <div id="menu">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" >
+
+                <LevelMenuItemStyles>
+                    <asp:MenuItemStyle CssClass ="level1" />
+                    <asp:MenuItemStyle CssClass ="level2" />
+                    <asp:MenuItemStyle CssClass ="level3" />
+                </LevelMenuItemStyles>
+
+            </asp:Menu>        
+
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"  ShowStartingNode="false" />
+        </div>
+
         <div id="date">
                      <asp:Label ID="lbl_Date" runat="server" Text=""></asp:Label>
         </div>

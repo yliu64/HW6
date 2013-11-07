@@ -4,7 +4,7 @@ Partial Class playerdetails
 
     Protected Sub DetailsView1_ItemInserted(sender As Object, e As DetailsViewInsertedEventArgs) Handles DetailsView1.ItemInserted
 
-        Response.Redirect("./players.aspx")
+        Response.Redirect("./default.aspx")
 
     End Sub
 End Class
