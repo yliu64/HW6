@@ -15,6 +15,8 @@ li
     padding: 5px;
 }
 
+a {color:#B70100;}
+
 #container {
     margin-top: 10px;
     background-color:#B70100;
@@ -28,16 +30,17 @@ li
 
 #menu {
     padding:20px;
-    width:600px;
+    width:500px;
     float: left;
+    font-size:14pt;
 }
 
 #date {
     padding-right:20px;
-    width:240px;
+    width:340px;
     float:right;
-     font-variant:small-caps;
-    font-size:13pt;
+    font-family:'Century Gothic';
+    font-size:14pt;
 }
 
 #content {
@@ -48,6 +51,9 @@ li
 #footer {
     padding:20px;
     text-align:center;
+    font-variant:small-caps;
+    clear:both;
+    font-family:'Century Gothic';
 }
 
 #hdr_text {
@@ -66,6 +72,46 @@ li
 #about {
     padding-left:50px;
     padding-right:50px;
+}
+
+.img_first {
+    float:left;
+    width: 550px;
+}
+
+.img_first:hover {
+    opacity:0.4;
+}
+
+.img_legend {
+    float:right;
+    width: 290px;
+    margin-right: 10px;
+}
+
+.img_legend:hover {
+    opacity: 0.4;
+}
+
+.img_fans {
+    float:left;
+    width: 550px;
+    margin-top:10px;
+}
+
+.img_fans:hover {
+        opacity: 0.4;
+    }
+
+.img_search {
+    float:right;
+    width: 290px;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.img_search:hover {
+    opacity: 0.4;
 }
 
 
@@ -146,7 +192,7 @@ li
 
 
 .hdr_img {
-    height: 300px;
+    width: 900px;
     margin: 0;
     padding: 0;
     border: 0;

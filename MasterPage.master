@@ -17,7 +17,6 @@
 
         <div id="header">
             <asp:Image CssClass="hdr_img" ID="Image1" runat="server" ImageUrl="~/images/premier-league-logo.jpg" />
-            <h1 id="hdr_text">Manchester United 2013/14<br />Player Proflie</h1>
         </div>
 
         <div id="menu">
@@ -35,7 +34,8 @@
         </div>
 
         <div id="date">
-                     <asp:Label ID="lbl_Date" runat="server" Text=""></asp:Label>
+                     <br />
+            <asp:Label ID="Label1" runat="server" Text="Today Is:"></asp:Label><asp:Label ID="lbl_Date" runat="server" Text=""></asp:Label>
         </div>
 
           <div id="content">
