@@ -157,3 +157,15 @@ li
     color:white;
     font-variant:small-caps;
 }
+
+.level2 {
+    padding-left:10px;
+    padding-right:10px;
+    background-color:black;
+    color:white;
+    font-variant:small-caps;
+}
+
+    .level2 td {
+            border: 1px solid white;
+    }

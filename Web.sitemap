@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="" title="."  description="">
-          
-        <siteMapNode url="~/default.aspx" title="Home"  description="" />
 
+      <siteMapNode url="~/default.aspx" title="Home"  description="" />
+
+      <siteMapNode url="" title="Players"  description="" >
+        <siteMapNode url="~/players.aspx" title="First Team"  description="" />
+        <siteMapNode url="~/search.aspx" title="Find a Player"  description="" />
         <siteMapNode url="~/newplayer.aspx" title="Add New Player"  description="" />
+      </siteMapNode>
+        
 
-        <siteMapNode url="~/search.aspx" title="Search"  description="" />
-
-      <siteMapNode url="~/about.aspx" title="About Man Utd "  description="" />
+      <siteMapNode url="~/about.aspx" title="About Man Utd"  description="" />
 
       <siteMapNode url="~/contact.aspx" title="Contact Us"  description="" />
       

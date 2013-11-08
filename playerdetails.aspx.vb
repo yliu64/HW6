@@ -8,19 +8,19 @@ Partial Class playerdetails
 
         lbl_delplayer.Text = "The record <span class=deletedrecipeshight>" & delplayer & "</span> has been deleted from the database."
 
-        Response.AddHeader("REFRESH", "3;URL=./default.aspx")
+        Response.AddHeader("REFRESH", "3;URL=./players.aspx")
 
     End Sub
 
     Protected Sub DetailsView1_ItemInserted(sender As Object, e As DetailsViewInsertedEventArgs) Handles DetailsView1.ItemInserted
 
-        Response.Redirect("./default.aspx")
+        Response.Redirect("./players.aspx")
 
     End Sub
 
     Protected Sub DetailsView1_ItemUpdated(sender As Object, e As DetailsViewUpdatedEventArgs) Handles DetailsView1.ItemUpdated
 
-        Response.Redirect("./default.aspx")
+        Response.Redirect("./players.aspx")
 
     End Sub
 End Class
